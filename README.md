@@ -29,3 +29,12 @@ Example : python segmentation_with_8patterns.py --root_path /home/piljae/Dataset
 python segmentation_with_pattern.py --root_path {} --material {} --output_root_path {}
 Example : python segmentation_with_pattern.py --root_path /home/piljae/Dataset/Hubitz/light_path_segmentation/scan_images --material metal_bell --output_root_path /home/piljae/Dropbox/hubitz/light_segmentation/segmentation_result
 ```
+# Dataset
+
++── light_path_segmentation
+│   +── scan_images   # segmentation_with_pattern.py's root path
+        +── metal_bell
+        +── metal_shaft
+│   +── 8patterns # sementation_with_8patterns.py's root path
+        +── metal_bell
+        +── metal_shaft
