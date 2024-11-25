@@ -31,6 +31,7 @@ Example : python segmentation_with_pattern.py --root_path /home/piljae/Dataset/H
 ```
 # Dataset
 
+```bash
 +── light_path_segmentation
 │   +── scan_images   # segmentation_with_pattern.py's root path
         +── metal_bell
@@ -38,3 +39,4 @@ Example : python segmentation_with_pattern.py --root_path /home/piljae/Dataset/H
 │   +── 8patterns # sementation_with_8patterns.py's root path
         +── metal_bell
         +── metal_shaft
+```
