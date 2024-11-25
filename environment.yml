@@ -1,0 +1,7 @@
+name: light_segmentation
+channels:
+  - defaults
+dependencies:
+  - python=3.9.19
+  - numpy=1.26.4
+  - opencv=4.10.0
